@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/*** WelcomeContainer***/
+
+.circular {
+  border-radius: 100%;
+  margin: 20px 30px 30px 30px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  line-height: 2;
+  color: #66BFBF;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #11999E;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Poppins", serif;
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: "Poppins", serif;
+  color: #11999E;
+  margin: auto 30px auto 30px;
+  text-decoration: none;
+}
+
+hr {
+  border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 10px;
+    width: 5%
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.bottomcloud {
+  position: absolute;
+}
+
+.uppercloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+.top {
+  position: relative;
+  padding-top: 50px;
+  background-color: linen;
+
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.HelloMessage {
+  font-size: 50px;
+  margin: 0;
+}
+.welcomeMessage {
+  margin: 10px 300px 40px 300px;
+  text-align:center;
+  line-height: 3;
+}
+
+/***** Middle container ****/
+.middle-container {
+  position: relative;
+  padding-top: 30px;
+}
+
+.skill-image {
+  width: 25%;
+  height: 25%;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.secondskill-image {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  position: relative;
+  top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.description1 {
+  clear: left;
+}
+
+.description2 {
+  clear: right;
+}
+
+.facebook-logo {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.contact-me {
+  margin: 40px auto 60px;
+  text-align: center;
+  line-height: 2;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  line-height: 5;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*** Bottom Container****/
+
+.bottom-container {
+  position: relative;
+  padding: 50px 10px 10px 10px;
+  background-color: linen;
+  margin: 0;
+}
+
+.copyright {
+margin-top: 20px;
+font-family: "Poppins", sans-serif;
+  font-size: small;
+  line-height: 2;
+}
